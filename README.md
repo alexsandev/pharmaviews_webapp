@@ -66,4 +66,28 @@ Pronto! Se tudo correu bem você deve ver uma tela parecida com essa:
 
 ![runserver](https://github.com/user-attachments/assets/bbe5e9d6-4bae-4dfb-85ac-b47f3b205548)
 
+***
+### Capturas de tela
+
+![Screenshot_1](https://github.com/user-attachments/assets/656bd0d9-294b-4722-a950-68bab777686a)
+***
+![Screenshot_2](https://github.com/user-attachments/assets/f004dac2-6adb-4d7c-9cf9-5a74b7c58665)
+***
+![Screenshot_3](https://github.com/user-attachments/assets/06401be4-7441-4eae-aaf9-b54014edf1ee)
+***
+![Screenshot_4](https://github.com/user-attachments/assets/d3bf336f-3838-437e-b873-49b1be403eb4)
+***
+![Screenshot_5](https://github.com/user-attachments/assets/8aff5db7-a46e-491e-975d-cb6c5d26c5d6)
+***
+![Screenshot_6](https://github.com/user-attachments/assets/b327b4a9-d7ae-4b77-a19a-d30f7a78e1b1)
+***
+![Screenshot_7](https://github.com/user-attachments/assets/0b52da05-5b14-4a56-86da-ba972b247286)
+***
+![Screenshot_8](https://github.com/user-attachments/assets/8e47ad00-6da7-490c-b97a-6f58c6ca19d8)
+***
+![Screenshot_9](https://github.com/user-attachments/assets/4fc9bac9-7aab-42b2-b06d-dcab1cc2f94d)
+***
+
+
+
 
