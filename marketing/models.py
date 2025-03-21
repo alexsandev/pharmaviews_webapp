@@ -1,10 +1,14 @@
 from django.db import models
 
 class Acao(models.Model):
-    investimento = models.DecimalField(max_digits=14, decimal_places=2)
+    investimento = models.DecimalField(
+        max_digits=14,
+        decimal_places=2,
+        verbose_name='investimento previsto'
+    )
     data_prevista = models.DateField()
     data_cadastro = models.DateField()
-    codigo_acao = models.ForeignKey('TipoAcao', on_delete=models.SET_NULL, null=True)
+    codigo_acao = models.ForeignKey('TipoAcao', on_delete=models.SET_NULL, null=True, verbose_name='ação')
 
     class Meta:
         db_table = 'acao'

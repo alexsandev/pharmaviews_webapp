@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #48628c;
+    height: 70px;
+}
+
+footer {
+    display: flex; 
+    align-items: center; 
+    height: 50px;
+    width: 100%;
+    background: #48628c;
+
+    span {
+        color: white; 
+        padding: 0 50px;
+    }
+}
+
+#logo {
+    height: 50px;
+}
+
+#menu {
+    color: white;
+    font-size: 25px;
+    padding: 0 25px;
+}
+
+.botao-editar {
+    text-decoration: none;
+    color: #0f77f7;
+}
+
+.botao-editar:hover
+{
+    text-decoration: none;
+}
+
+.botao-excluir {
+    text-decoration: none;
+    color: #ad3b41;
+}
+
+.botao-excluir:hover
+{
+    text-decoration: none;
+}
