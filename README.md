@@ -2,8 +2,9 @@
 
 O projeto Gestão de Verbas consiste em uma aplicação web destinada controlar (criar, listar, editar, excluir) campanhas/ações de marketing e o orçamento destinados a elas.
 
-***
+![pharmaviewswebapp](https://github.com/user-attachments/assets/4b83af75-d924-4b8c-989a-b0c95e7ac734)
 
+***
 ### Preparando o ambiente
 
 Para que o programa execute localmente em sua maquina, é necessario ter o interpretador do Python (versão 3.13.2) instalado. Também são necessarias algumas bibliotecas Python, 
