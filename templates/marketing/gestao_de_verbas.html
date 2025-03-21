@@ -9,7 +9,7 @@
     </div>
     <div class="panel-body">
         <div class="container-fluid">
-            <form action="{% url 'adicionar-acao' %}" method="post" class="row">
+            <form action="" method="post" class="row">
                 {% csrf_token %}
                 <div class="col-md-3 form-group">
                     {{ form.codigo_acao.label }}
@@ -61,8 +61,8 @@
                         <td>{{ a.codigo_acao }}</td>
                         <td>{{ a.data_prevista | date:"d/m/Y" }}</td>
                         <td>{{ a.investimento }}</td>
-                        <td><a class="botao-editar" href="">&#x270E;</a></td>
-                        <td><a class="botao-excluir" href="">&#x2716;</a></td>
+                        <td><a class="botao-editar" href="{% url 'acao-update' a.pk %}">&#x270E;</a></td>
+                        <td><a class="botao-excluir" href="{% url 'acao-delete' a.pk %}">&#x2716;</a></td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -80,7 +80,10 @@
                     { targets: 2, render: $.fn.dataTable.render.number('.', ',', 2, 'R$ ')},
                     { targets: [3,4], className: 'text-center' },
                     { targets: [3,4], orderable: false },
-                ]
+                ],
+                paging: false,
+                searching: false,
+                info: false
             });
         } );
     </script>

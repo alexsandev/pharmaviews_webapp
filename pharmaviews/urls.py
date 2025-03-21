@@ -18,8 +18,12 @@ from django.contrib import admin
 from django.urls import include, path
 from django.views.generic import RedirectView
 
+from marketing.views import erro_no_servidor
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', RedirectView.as_view(url='/marketing/')),
     path('marketing/', include('marketing.urls')),
 ]
+
+handler500 = erro_no_servidor

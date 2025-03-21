@@ -12,12 +12,20 @@ class AcaoForm(forms.ModelForm):
             data = self.cleaned_data['data_prevista']
 
             if data < datetime.date.today():
-                raise ValidationError(_('Data Inaválida - Você não pode selecionar uma data no passado.'))
+                raise ValidationError(_('Você não pode selecionar uma data no passado.'))
 
             if data < datetime.date.today() + datetime.timedelta(days=10):
-                raise ValidationError(_('Data Inaválida - A data do evento precisa ser no minimo em 10 dias.'))
+                raise ValidationError(_('A data do evento precisa ser no minimo em 10 dias.'))
 
             return data
+        
+        def clean_investimento(self):
+             valor = self.cleaned_data['investimento']
+
+             if valor <= 0:
+                  raise ValidationError(_('O valor investido na ação não pode ser menor ou igual a zero.'))
+             
+             return valor
         
         class Meta:
             model = Acao
